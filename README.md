@@ -38,16 +38,44 @@ The project focuses on **data cleaning**, **exploration**, and **visualization**
 ## 🧠 Workflow
 
 ### **Step 1 - Import Required Libraries**
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
 
 ### **Step 2 - Load the Dataset**
+```
+data = pd.read_csv("Retail_Transactions_2000.csv")
+```
 
 ### **Step 3 - Data Cleaning & Preprocessing**
+   * Checked for missing values using `isnull().sum()`
+   * Removed or imputed null values
+   * Checked for duplicates and inconsistent records
 
 ### **Step 4 - Exploratory Data Analysis (EDA)**
+   * Generated summary statistics using `describe()`
+   * Explored sales distribution and trends
+   * Visualized product-wise and city-wise sales
 
 ### **Step 5 - Visualization**
-
+Visuals were created using Matplotlib and Seaborn:
+   * 📊 Bar charts: City-wise sales
+   * 🧭 Line plots: Monthly/seasonal trends
+   * 🍩 Pie charts: Product category distribution
+   * 🔥 Heatmaps: Feature correlations
+     
 ---
+📈 Insights (Sample Outcomes)
+
+   * Top-performing cities contribute most to overall sales.
+   * Seasonal peaks observed during festive months.
+   * Some product categories outperform in specific regions.
+   * Customer retention higher in metro cities.
+---
+
 ## ⚙️ Requirements
 
 * Install dependencies with:

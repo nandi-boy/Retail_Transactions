@@ -68,7 +68,7 @@ Visuals were created using Matplotlib and Seaborn:
    * 🔥 Heatmaps: Feature correlations
      
 ---
-📈 Insights (Sample Outcomes)
+## 📈 Insights (Sample Outcomes)
 
    * Top-performing cities contribute most to overall sales.
    * Seasonal peaks observed during festive months.

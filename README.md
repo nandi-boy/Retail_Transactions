@@ -23,14 +23,14 @@ The project focuses on **data cleaning**, **exploration**, and **visualization**
 
 **Columns:**
 
- `Transaction_ID`   - Unique identifier for each transaction 
- `Customer_ID`      - Unique customer identifier 
- `City`             - Location of the store 
- `Date`             - Transaction date 
- `Product_Category` - Type of product purchased 
- `Quantity`         - Number of units sold 
- `Price`            - Price per unit 
-`Total_Amount`      - Total amount for each transaction 
+* `Transaction_ID`   - Unique identifier for each transaction 
+* `Customer_ID`      - Unique customer identifier 
+* `City`             - Location of the store 
+* `Date`             - Transaction date 
+* `Product_Category` - Type of product purchased 
+* `Quantity`         - Number of units sold 
+* `Price`            - Price per unit 
+* `Total_Amount`      - Total amount for each transaction 
 
 
 ---
